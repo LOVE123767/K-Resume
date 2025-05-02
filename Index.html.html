@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Kritika Kashyap - Resume</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f5f1e7; /* Beige */
+      color: #12372A; /* Dark Green */
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background-color: #ffffff;
+      border: 2px solid #12372A;
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
+    }
+
+    .header {
+      background-color: #000000; /* Black top section */
+      color: #f5f1e7; /* Beige text for contrast */
+      padding: 40px 30px;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .profile-img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #f5f1e7;
+      margin-right: 25px;
+    }
+
+    .intro h1 {
+      font-size: 2.2em;
+      margin: 0;
+      color: #f5f1e7;
+    }
+
+    .intro p {
+      margin: 4px 0;
+      color: #cccccc;
+    }
+
+    .content {
+      padding: 30px;
+    }
+
+    section {
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      font-size: 1.5em;
+      border-left: 6px solid #12372A;
+      padding-left: 10px;
+      margin-bottom: 10px;
+      color: #12372A;
+    }
+
+    ul {
+      list-style-type: disc;
+      margin-left: 20px;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    .skill-category {
+      flex: 1 1 45%;
+    }
+
+    @media (max-width: 600px) {
+      .header {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .profile-img {
+        margin: 0 auto 15px;
+      }
+
+      .skills {
+        flex-direction: column;
+      }
+
+      .skill-category {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <!-- Image relative path from HTML in D:\ to image in D:\kritika\ -->
+      <img src="Pankhudi.jpg" alt="Kritika Kashyap" class="profile-img" />
+      <div class="intro">
+        <h1>Kritika Kashyap</h1>
+        <p>Department: Fashion Communication</p>
+        <p>Semester: 6</p>
+      </div>
+    </div>
+
+    <div class="content">
+      <section>
+        <h2>About Me</h2>
+        <p>
+          I am a passionate Visual Communication Designer focused on crafting meaningful design solutions through storytelling, branding, and digital media. My creative approach is driven by curiosity, aesthetic intuition, and a dedication to detail.
+        </p>
+      </section>
+
+      <section>
+        <h2>Skills</h2>
+        <div class="skills">
+          <div class="skill-category">
+            <h3>Hard Skills</h3>
+            <ul>
+              <li>Adobe Photoshop, Illustrator, InDesign</li>
+              <li>UI/UX Design and Wireframing</li>
+              <li>Brand Identity & Packaging Design</li>
+              <li>Typography & Layout Design</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3>Soft Skills</h3>
+            <ul>
+              <li>Creative Thinking</li>
+              <li>Collaboration & Teamwork</li>
+              <li>Adaptability & Problem Solving</li>
+              <li>Time Management</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section>
+  <h2>Education</h2>
+  <ul>
+    <li><strong>Bachelor of Design (B.Des), Fashion Communication</strong> – Currently in Semester 6</li>
+    <li><strong>Higher Secondary</strong> – Kendriya Vidyalaya, Bilaspur</li>
+    <li><strong>Primary Schooling</strong> – Kendriya Vidyalaya, Bilaspur</li>
+  </ul>
+</section>
+
+
+      <section>
+        <h2>Experience</h2>
+        <ul>
+          <li><strong>Jaypore</strong> – Design Intern (Visual Merchandising & Content)</li>
+          <li><strong>Aditya Birla</strong> – Internship in Fashion Retail Branding</li>
+          <li><strong>Tagglabs</strong> – Ongoing Internship in Digital Design & Campaigns</li>
+        </ul>
+      </section>
+    </div>
+  </div>
+</body>
+</html>
